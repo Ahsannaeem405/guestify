@@ -1,0 +1,11 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - ALTER TABLE `guests` ADD `name` VARCHAR(200) NULL DEFAULT NULL AFTER `comment_customer`, ADD `email` VARCHAR(250) NULL DEFAULT NULL AFTER `name`;
+
+
+DOWN:
+  queries:
+    - ALTER TABLE `guests` DROP `name`, DROP `email`;

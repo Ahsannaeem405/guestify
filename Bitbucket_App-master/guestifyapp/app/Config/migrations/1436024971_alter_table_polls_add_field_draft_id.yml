@@ -1,0 +1,11 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - ALTER TABLE `polls` ADD `draft_id` INT(11) UNSIGNED NULL DEFAULT NULL AFTER `id`;
+
+
+DOWN:
+  queries:
+    - ALTER TABLE `polls` DROP `draft_id`;

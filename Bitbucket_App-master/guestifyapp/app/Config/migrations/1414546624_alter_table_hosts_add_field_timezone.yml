@@ -1,0 +1,11 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - ALTER TABLE  `hosts` ADD  `timezone` VARCHAR( 100 ) NOT NULL DEFAULT  'Europe/Brussels' AFTER  `web` ;
+        
+
+DOWN:
+  queries:
+    - ALTER TABLE `hosts` DROP `timezone`;

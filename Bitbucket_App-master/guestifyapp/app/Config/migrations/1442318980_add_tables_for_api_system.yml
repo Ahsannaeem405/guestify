@@ -1,0 +1,96 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - |
+        ALTER TABLE  `polls` ADD  `api_accessible` TINYINT( 1 ) UNSIGNED NOT NULL DEFAULT  '0' AFTER  `status` ,
+            ADD  `api_key` VARCHAR( 100 ) NULL DEFAULT NULL AFTER  `api_accessible` ,
+            ADD  `api_secret` VARCHAR( 100 ) NULL DEFAULT NULL AFTER  `api_key` ;
+
+    - |
+        CREATE TABLE `api_call_logs` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `request_uri` mediumtext NOT NULL,
+            `action` varchar(100) DEFAULT NULL,
+            `api_key` varchar(500) DEFAULT NULL,
+            `query` mediumtext,
+            `model` varchar(100) DEFAULT NULL,
+            `f_key` int(11) unsigned DEFAULT NULL,
+            `created` datetime NOT NULL,
+            `modified` datetime NOT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+    - |
+        CREATE TABLE `api_tokens` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `type` int(3) unsigned NOT NULL,
+            `api_key` varchar(50) NOT NULL,
+            `account_id` int(11) unsigned DEFAULT NULL,
+            `token` varchar(40) NOT NULL,
+            `model` varchar(50) NOT NULL,
+            `f_key` int(11) unsigned NOT NULL,
+            `expires_in_seconds` int(11) unsigned NOT NULL,
+            `expires` datetime DEFAULT NULL COMMENT 'UTC!',
+            `status` int(3) unsigned NOT NULL,
+            `created` datetime NOT NULL,
+            `modified` datetime NOT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+    - |
+        CREATE TABLE `debugger_api_call_logs` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `request_uri` mediumtext NOT NULL,
+            `action` varchar(100) DEFAULT NULL,
+            `api_key` varchar(500) DEFAULT NULL,
+            `query` mediumtext,
+            `model` varchar(100) DEFAULT NULL,
+            `f_key` int(11) unsigned DEFAULT NULL,
+            `created` datetime NOT NULL,
+            `modified` datetime NOT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+    - |
+        CREATE TABLE `debugger_api_tokens` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `type` int(3) unsigned NOT NULL,
+            `api_key` varchar(50) NOT NULL,
+            `account_id` int(11) unsigned DEFAULT NULL,
+            `token` varchar(40) NOT NULL,
+            `model` varchar(50) NOT NULL,
+            `f_key` int(11) unsigned NOT NULL,
+            `expires_in_seconds` int(11) unsigned NOT NULL,
+            `expires` datetime DEFAULT NULL COMMENT 'UTC!',
+            `status` int(3) unsigned NOT NULL,
+            `created` datetime NOT NULL,
+            `modified` datetime NOT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+
+DOWN:
+  queries:
+    - |
+        ALTER TABLE `polls`
+            DROP `api_accessible`,
+            DROP `api_key`,
+            DROP `api_secret`;
+
+    - |
+        DROP TABLE api_call_logs;
+
+    - |
+        DROP TABLE api_tokens;
+
+    - |
+        DROP TABLE debugger_api_call_logs;
+
+    - |
+        DROP TABLE debugger_api_tokens;

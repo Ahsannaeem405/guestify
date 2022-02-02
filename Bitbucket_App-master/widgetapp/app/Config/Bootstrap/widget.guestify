@@ -1,0 +1,58 @@
+<?php
+    Configure::write('Language.default', 'eng');
+    Configure::write('debug', 2);
+    Configure::write('log', true);
+
+    Configure::write('Session.timeout ', '36000');
+    Configure::write('Session.cookie', 'GA_LOCAL_CAKEPHP');
+
+    Configure::write('Environment', 'LOCAL');
+    Configure::write('Instance', 'widgetapp');
+    Configure::write('NON_SSL_HOST', 'http://widget.guestify');
+    Configure::write('NON_SSL_HOST_APP', 'http://guestify');
+    Configure::write('NON_SSL_API', 'http://api.guestify');
+    Configure::write('URL_guestifyapp', 'http://guestify');
+    Configure::write('URL_feedbackapp', 'http://polls.guestify');
+    Configure::write('URL_widgetapp', 'http://widget.guestify');
+
+    Configure::write('GOOGLE_MAPS_API_KEY', '');
+    Configure::write('ANALYTICS_TRACKING_CODE', '');
+    Configure::write('GOOGLE_WEBMASTER_KEY', '');
+
+    Configure::write('Email.dev', 'appadmin@guestify.net');
+    Configure::write('Email.no_reply_email', 'noreply@guestify.net');
+    Configure::write('Email.no_reply_name', 'guestify.net');
+
+    # media settings
+    Configure::write('CDN.Host', 'https://s3.us-east-1.amazonaws.com/media-guestify/local/');
+
+
+    Cache::config('default', array(
+        'engine' => 'File',
+        'duration'=> 7200,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_widgetapp_local_',
+    ));
+
+    Cache::config('5mins', array(
+        'engine' => 'File',
+        'duration'=> 300,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_widgetapp_local_',
+    ));
+
+    Cache::config('short', array(
+        'engine' => 'File',
+        'duration'=> 600,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_widgetapp_local_',
+    ));
+
+    Cache::config('long', array(
+        'engine' => 'File',
+        'duration'=> 3600,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_widgetapp_local_',
+    ));
+
+    #CakeLog::config('default', array('engine' => 'DatabaseLogger', 'model'=>'LogEntry')); 

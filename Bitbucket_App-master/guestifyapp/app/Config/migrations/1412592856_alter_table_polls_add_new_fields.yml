@@ -1,0 +1,20 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - ALTER TABLE  `polls` ADD  `title` VARCHAR( 100 ) NULL DEFAULT NULL AFTER  `host_id`;
+    - UPDATE polls SET title = 'Feedback';
+    - |
+        ALTER TABLE  `polls` ADD  `theme_id` INT( 11 ) UNSIGNED NULL DEFAULT  '1' AFTER  `limit` ,
+            ADD  `color` VARCHAR( 10 ) NULL DEFAULT NULL AFTER  `theme_id` ;
+    - ALTER TABLE  `polls` ADD  `alt_url` VARCHAR( 200 ) NULL DEFAULT NULL AFTER  `color` ;
+
+DOWN:
+  queries:
+    - |
+        ALTER TABLE `polls`
+          DROP `title`,
+          DROP `theme_id`,
+          DROP `color`,
+          DROP `alt_url`;

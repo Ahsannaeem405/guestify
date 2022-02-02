@@ -1,0 +1,12 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - ALTER TABLE  `upgrades` ADD  `valid_from` DATETIME NOT NULL AFTER  `poll_id` ;
+    - UPDATE upgrades SET valid_from = created;
+        
+
+DOWN:
+  queries:
+    - ALTER TABLE `upgrades` DROP `valid_from`;

@@ -1,0 +1,44 @@
+* {
+    /*margin:2mm;*/
+    padding:0;
+    font-family: Helvetica, Arial;
+    font-size:9pt;
+    color:#333;
+}
+
+body {
+    width:100%;
+    font-family:Helvetica, Arial;
+    font-size:9pt;
+    margin:0;
+    padding:0;
+}
+
+#wrapper {
+    text-align: center;
+    color: #333;
+    border: 1pt dashed #DDD;
+    height: 145mm;
+    background: url(/graphics/backgrounds/swirl_light_grey.png) 0 0 repeat;
+    background-size: 50%;
+}
+
+#content {
+    margin: 5mm;
+}
+
+h1, h2, h3, h4, h5 { margin: 0 0 0.5cm 0;}
+
+div.centered, .text-center {
+    text-align: center;
+}
+
+p.qr-code, div.qr-code { background: #FFFFFF; border: 2px #8DC2D9 dashed; border: 1pt #ccc solid; font-size: 6pt; padding: 2mm 2mm; margin: 0 0 2mm 0;}
+
+small { font-size: 80%; }
+
+.step { text-align: center;}
+
+#footer {
+    margin-top: 1cm;
+}

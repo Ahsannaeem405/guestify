@@ -1,0 +1,10 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - ALTER TABLE  `users` ADD  `locale` VARCHAR( 3 ) NOT NULL DEFAULT 'eng' AFTER `status`;
+
+DOWN:
+  queries:
+    - ALTER TABLE `users` DROP `locale`;

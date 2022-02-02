@@ -1,0 +1,11 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - ALTER TABLE  `polls` ADD  `limit` INT( 11 ) UNSIGNED NOT NULL DEFAULT  '100' AFTER  `code` ;
+
+
+DOWN:
+  queries:
+    - ALTER TABLE `polls` DROP `limit`;

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.0//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" xml:space="preserve" height="23.866mm" width="17.672mm" version="1.0" clip-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 408 551">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#003333}
+    .fil0 {fill:#33CC66}
+   ]]>
+  </style>
+ </defs>
+ <g id="Warstwa_x0020_1">
+  <g id="_638958368">
+   <path class="fil0" d="m16 0h277l115 126v407c0 10-7 18-16 18h-376c-9 0-16-8-16-18v-515c0-10 7-18 16-18z"/>
+   <path class="fil1" d="m408 126h-98c-9 0-17-8-17-18v-108l115 126z"/>
+  </g>
+ </g>
+</svg>

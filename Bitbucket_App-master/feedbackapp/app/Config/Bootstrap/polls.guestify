@@ -1,0 +1,47 @@
+<?php
+    Configure::write('Language.default', 'eng');
+    Configure::write('debug', 1);
+    Configure::write('log', true);
+
+    Configure::write('Session.timeout ', '3600');
+    Configure::write('Session.cookie', 'GF_LOCAL_CAKEPHP');
+
+    Configure::write('Environment', 'LOCAL');
+    Configure::write('Instance', 'feedbackapp');
+    Configure::write('NON_SSL_HOST', 'http://polls.guestify');
+    
+    Configure::write('NON_SSL_HOST_PUBLIC', 'http://guestify');
+
+    Configure::write('GOOGLE_MAPS_API_KEY', '');
+    Configure::write('ANALYTICS_TRACKING_CODE', '');
+    Configure::write('GOOGLE_WEBMASTER_KEY', '');
+
+    Configure::write('CDN.Host', 'https://s3.us-east-1.amazonaws.com/media-guestify/local/');
+
+    Cache::config('default', array(
+        'engine' => 'File',
+        'duration'=> 7200,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_feedbackapp_local_',
+    ));
+
+    Cache::config('5mins', array(
+        'engine' => 'File',
+        'duration'=> 300,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_feedbackapp_local_',
+    ));
+
+    Cache::config('short', array(
+        'engine' => 'File',
+        'duration'=> 600,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_feedbackapp_local_',
+    ));
+
+    Cache::config('long', array(
+        'engine' => 'File',
+        'duration'=> 3600,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_feedbackapp_local_',
+    ));

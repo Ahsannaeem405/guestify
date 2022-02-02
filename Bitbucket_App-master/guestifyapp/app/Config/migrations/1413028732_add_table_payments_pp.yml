@@ -1,0 +1,68 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - |
+        CREATE TABLE `payments_pp` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `invoice_id` int(11) unsigned NOT NULL,
+            `account_id` int(11) unsigned NOT NULL,
+            `host_id` int(11) unsigned NOT NULL,
+            `poll_id` int(11) unsigned NOT NULL,
+            `user_id` int(11) unsigned NOT NULL,
+            `TOKEN` varchar(100) NOT NULL,
+            `BILLINGAGREEMENTACCEPTEDSTATUS` varchar(100) DEFAULT NULL,
+            `CHECKOUTSTATUS` varchar(100) DEFAULT NULL,
+            `TIMESTAMP` varchar(100) NOT NULL,
+            `CORRELATIONID` varchar(100) DEFAULT NULL,
+            `ACK` varchar(100) DEFAULT NULL,
+            `VERSION` varchar(100) DEFAULT NULL,
+            `BUILD` varchar(100) DEFAULT NULL,
+            `EMAIL` varchar(100) NOT NULL,
+            `PAYERID` varchar(100) NOT NULL,
+            `PAYERSTATUS` varchar(100) NOT NULL,
+            `FIRSTNAME` varchar(100) NOT NULL,
+            `LASTNAME` varchar(100) NOT NULL,
+            `COUNTRYCODE` varchar(100) NOT NULL,
+            `CURRENCYCODE` varchar(100) NOT NULL,
+            `AMT` varchar(100) NOT NULL,
+            `ITEMAMT` varchar(100) NOT NULL,
+            `SHIPPINGAMT` varchar(100) NOT NULL,
+            `HANDLINGAMT` varchar(100) NOT NULL,
+            `TAXAMT` varchar(100) NOT NULL,
+            `DESCRIPTION` varchar(100) NOT NULL,
+            `INSURANCEAMT` varchar(100) NOT NULL,
+            `SHIPDISCAMT` varchar(100) NOT NULL,
+            `L_NAME0` varchar(100) NOT NULL,
+            `L_QTY0` varchar(100) NOT NULL,
+            `L_TAXAMT0` varchar(100) NOT NULL,
+            `L_AMT0` varchar(100) NOT NULL,
+            `TAXPERCENT` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_TRANSACTIONID` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_TRANSACTIONTYPE` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_PAYMENTTYPE` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_ORDERTIME` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_AMT` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_FEEAMT` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_TAXAMT` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_CURRENCYCODE` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_PAYMENTSTATUS` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_PENDINGREASON` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_REASONCODE` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_PROTECTIONELIGIBILITY` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_PROTECTIONELIGIBILITYTYPE` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_SECUREMERCHANTACCOUNTID` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_ERRORCODE` varchar(100) NOT NULL,
+            `PAYMENTINFO_0_ACK` varchar(100) NOT NULL,
+            `modified` datetime NOT NULL,
+            `created` datetime NOT NULL,
+            `deleted` tinyint(1) NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+
+
+DOWN:
+  queries:
+    - DROP TABLE payments_pp";

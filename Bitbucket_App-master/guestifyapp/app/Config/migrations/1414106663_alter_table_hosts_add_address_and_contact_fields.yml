@@ -1,0 +1,33 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - ALTER TABLE  `hosts` ADD  `category_id` INT( 11 ) UNSIGNED NOT NULL DEFAULT  '1' AFTER  `account_id` ;
+    - |
+        ALTER TABLE  `hosts` ADD  `address` VARCHAR( 200 ) NULL DEFAULT NULL AFTER  `locale` ,
+            ADD  `zipcode` VARCHAR( 50 ) NULL DEFAULT NULL AFTER  `address` ,
+            ADD  `city` VARCHAR( 100 ) NULL DEFAULT NULL AFTER  `zipcode` ,
+            ADD  `country_id` INT( 11 ) UNSIGNED NOT NULL DEFAULT  '1' AFTER  `city` ,
+            ADD  `lat` VARCHAR( 50 ) NULL DEFAULT NULL AFTER  `country_id` ,
+            ADD  `lng` VARCHAR( 50 ) NULL DEFAULT NULL AFTER  `lat` ,
+            ADD  `phone` VARCHAR( 50 ) NULL DEFAULT NULL AFTER  `lng` ,
+            ADD  `fax` VARCHAR( 50 ) NULL DEFAULT NULL AFTER  `phone` ,
+            ADD  `email` VARCHAR( 200 ) NULL DEFAULT NULL AFTER  `fax` ,
+            ADD  `web` VARCHAR( 500 ) NULL DEFAULT NULL AFTER  `email` ;
+
+DOWN:
+  queries:
+    - |
+        ALTER TABLE `hosts`
+            DROP `category_id`
+            DROP `address`,
+            DROP `zipcode`,
+            DROP `city`,
+            DROP `country_id`,
+            DROP `lat`,
+            DROP `lng`,
+            DROP `phone`,
+            DROP `fax`,
+            DROP `email`,
+            DROP `web`;

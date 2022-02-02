@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Guestify\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-29 09:47+0100\n"
+"PO-Revision-Date: 2013-11-29 09:47+0100\n"
+"Last-Translator: Jean Wichert <wjw@digital-cube.de>\n"
+"Language-Team: DC <info@digital-cube.de>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: /home/jwichert/Projects/guestify/app\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Model/Poll.php:107
+msgid "This is my first visit"
+msgstr "This is my first visit"
+
+#: Model/Poll.php:108
+msgid "I am rarely here"
+msgstr "I am rarely here"
+
+#: Model/Poll.php:109
+msgid "I am occasionally here"
+msgstr "I am occasionally here"
+
+#: Model/Poll.php:110
+msgid "I am a regular guest"
+msgstr "I am a regular guest"
+
+#: Model/Poll.php:125
+msgid "Evening"
+msgstr "Evening"
+
+#: Model/Poll.php:126
+msgid "Midday"
+msgstr "Midday"
+
+#: Model/Poll.php:127
+msgid "Morning"
+msgstr "Morning"
+
+#: Model/Poll.php:192
+#: Model/Poll.php:195
+msgid "Please select!"
+msgstr "Please select!"
+
+#: View/Pages/home.ctp:2
+#: View/Layouts/default.ctp:26
+#: View/Layouts/default.ctp:32
+msgid "Guest Feedback"
+msgstr "Guest Feedback"
+
+#: View/Pages/home.ctp:24
+#: View/Pages/home.ctp:33
+msgid "Deutsch"
+msgstr "Deutsch"
+
+#: View/Pages/home.ctp:26
+#: View/Pages/home.ctp:34
+msgid "English"
+msgstr "English"
+
+#: View/Pages/home.ctp:44
+msgid "Please enter PIN"
+msgstr "Please enter PIN"
+
+#: View/Pages/home.ctp:47
+msgid "Start Feedback"
+msgstr "Start Feedback"
+
+#: View/Pages/basic-gettext.ctp:3
+msgid "Food and beverages"
+msgstr "Food and beverages"
+
+#: View/Pages/basic-gettext.ctp:4
+msgid "Range of food"
+msgstr "Range of food"
+
+#: View/Pages/basic-gettext.ctp:5
+msgid "Quality of food"
+msgstr "Quality of food"
+
+#: View/Pages/basic-gettext.ctp:6
+msgid "Presentation of food"
+msgstr "Presentation of food"
+
+#: View/Pages/basic-gettext.ctp:7
+msgid "Range of beverages and wines"
+msgstr "Range of beverages and wines"
+
+#: View/Pages/basic-gettext.ctp:8
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: View/Pages/basic-gettext.ctp:9
+msgid "Ambience & decor"
+msgstr "Ambience & decor"
+
+#: View/Pages/basic-gettext.ctp:10
+msgid "Waiting time"
+msgstr "Waiting time"
+
+#: View/Pages/basic-gettext.ctp:11
+msgid "Value for money"
+msgstr "Value for money"
+
+#: View/Pages/basic-gettext.ctp:12
+msgid "Staff"
+msgstr "Staff"
+
+#: View/Pages/basic-gettext.ctp:13
+msgid "Friendliness"
+msgstr "Friendliness"
+
+#: View/Pages/basic-gettext.ctp:14
+msgid "Competence"
+msgstr "Competence"
+
+#: View/Pages/basic-gettext.ctp:15
+msgid "Flexibility"
+msgstr "Flexibility"
+
+#: View/Pages/basic-gettext.ctp:16
+msgid "Service"
+msgstr "Service"
+
+#: View/Layouts/default.ctp:33
+msgid "We invite you to give us your feedback"
+msgstr "We invite you to give us your feedback"
+
+#: View/Layouts/default.ctp:94
+msgid "Copyright"
+msgstr "Copyright"
+
+#: View/Layouts/default.ctp:94
+msgid "All Rights Reserved."
+msgstr "All Rights Reserved."
+
+#: View/Layouts/default.ctp:95
+msgid "powered by guestify.net"
+msgstr "powered by guestify.net"
+
+#: View/Polls/show_poll.ctp:54
+msgid "Restaurant visit"
+msgstr "Restaurant visit"
+
+#: View/Polls/show_poll.ctp:62
+msgid "Is this your first visit...?"
+msgstr "Is this your first visit...?"
+
+#: View/Polls/show_poll.ctp:75
+msgid "Visit time..."
+msgstr "Visit time..."
+
+#: View/Polls/show_poll.ctp:104
+msgid "Thank your very much!"
+msgstr "Thank your very much!"
+
+#: View/Polls/show_poll.ctp:105
+msgid "We appreciate your feedback and we will do our best to be better."
+msgstr "We appreciate your feedback and we will do our best to be better."
+
+#: View/Polls/show_poll.ctp:107
+msgid "Public Check in &amp; rating!"
+msgstr "Public Check in &amp; rating!"
+
+#: View/Polls/show_poll.ctp:120
+msgid "Follow us!"
+msgstr "Follow us!"
+
+#: View/Polls/show_poll.ctp:124
+msgid "Like us on Facebook"
+msgstr "Like us on Facebook"
+
+#~ msgid "Englisch"
+#~ msgstr "Englisch"
+
+#~ msgid "Give us your feedback!"
+#~ msgstr "Give us your feedback!"
+
+#~ msgid "Private rating"
+#~ msgstr "Private rating"

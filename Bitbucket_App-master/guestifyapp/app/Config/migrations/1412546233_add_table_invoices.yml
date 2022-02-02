@@ -1,0 +1,50 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - |
+        CREATE TABLE `invoices` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `account_id` int(11) unsigned NOT NULL,
+            `host_id` int(11) unsigned NOT NULL,
+            `poll_id` int(11) unsigned NOT NULL,
+            `invoice_number` varchar(50) NOT NULL,
+            `valid_from` datetime NOT NULL,
+            `valid_until` datetime NOT NULL,
+            `gender` int(3) unsigned NOT NULL,
+            `firstname` varchar(100) NOT NULL,
+            `lastname` varchar(100) NOT NULL,
+            `address` varchar(200) NOT NULL,
+            `address_additional` varchar(200) DEFAULT NULL,
+            `zipcode` varchar(50) NOT NULL,
+            `city` varchar(100) NOT NULL,
+            `country_id` int(11) unsigned NOT NULL,
+            `email` varchar(200) NOT NULL,
+            `company` varchar(200) DEFAULT NULL,
+            `ustid` varchar(100) DEFAULT NULL,
+            `promotioncode` varchar(200) DEFAULT NULL,
+            `promotioncode_deduction_percent` decimal(10,2) unsigned DEFAULT NULL,
+            `promotioncode_deduction_netto` decimal(10,2) unsigned DEFAULT NULL,
+            `promotioncode_deduction_vat` decimal(10,2) unsigned DEFAULT NULL,
+            `price_total` decimal(10,2) unsigned NOT NULL,
+            `price_vat` decimal(10,2) unsigned NOT NULL,
+            `price_vat_percent` decimal(10,4) unsigned NOT NULL,
+            `price_netto` decimal(10,2) unsigned NOT NULL,
+            `final_netto` decimal(10,2) unsigned DEFAULT NULL,
+            `final_vat` decimal(10,2) unsigned DEFAULT NULL,
+            `final_total` decimal(10,2) unsigned DEFAULT NULL,
+            `description` varchar(200) NOT NULL,
+            `payment_type` int(3) unsigned NOT NULL,
+            `status` int(3) unsigned NOT NULL,
+            `modified` datetime NOT NULL,
+            `created` datetime NOT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+
+
+DOWN:
+  queries:
+    - DROP TABLE invoices;

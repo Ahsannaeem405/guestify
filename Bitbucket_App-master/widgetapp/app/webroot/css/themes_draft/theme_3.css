@@ -1,0 +1,16 @@
+/* smileys -> scale */
+.scale_1 { background-image: url(/graphics/smiley-set3/scale_1.png) ;}
+.scale_2 { background-image: url(/graphics/smiley-set3/scale_2.png) ;}
+.scale_3 { background-image: url(/graphics/smiley-set3/scale_3.png) ;}
+.scale_4 { background-image: url(/graphics/smiley-set3/scale_4.png) ;}
+.scale_5 { background-image: url(/graphics/smiley-set3/scale_5.png) ;}
+.scale_6 { background-image: url(/graphics/smiley-set3/scale_6.png) ;}
+
+/* social buttons */
+.button.facebook { background-image: url(/graphics/social-button-set2/facebook.png);}
+.button.twitter { background-image: url(/graphics/social-button-set2/twitter.png);}
+.button.tripadvisor { background-image: url(/graphics/social-button-set2/tripadvisor.png);}
+.button.foursquare { background-image: url(/graphics/social-button-set2/foursquare.png);}
+.button.yelp { background-image: url(/graphics/social-button-set2/yelp.png);}
+.button.qype { background-image: url(/graphics/social-button-set2/qype.png);}
+.button.restkritik { background-image: url(/graphics/social-button-set2/restaurant_kritik.png);}

@@ -1,0 +1,49 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - |
+        CREATE TABLE `drafts` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `name_eng` varchar(200) DEFAULT NULL,
+            `name_deu` varchar(200) DEFAULT NULL,
+            `status` int(3) unsigned NOT NULL DEFAULT '1',
+            `created` datetime NOT NULL,
+            `modified` datetime NOT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+    - |
+        CREATE TABLE `drafts_groups` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `draft_id` int(11) unsigned NOT NULL,
+            `name_eng` varchar(200) DEFAULT NULL,
+            `name_deu` varchar(200) DEFAULT NULL,
+            `position` int(3) unsigned NOT NULL,
+            `created` datetime NOT NULL,
+            `modified` datetime NOT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+    - |
+        CREATE TABLE `drafts_groups_questions` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `draft_id` int(11) unsigned NOT NULL,
+            `drafts_group_id` int(11) unsigned NOT NULL,
+            `question_eng` varchar(200) DEFAULT NULL,
+            `question_deu` varchar(200) DEFAULT NULL,
+            `scale` int(3) unsigned NOT NULL,
+            `position` int(3) unsigned NOT NULL,
+            `created` datetime NOT NULL,
+            `modified` datetime NOT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+DOWN:
+  queries:
+    - DROP TABLE `drafts`, `drafts_groups`, `drafts_groups_questions`;

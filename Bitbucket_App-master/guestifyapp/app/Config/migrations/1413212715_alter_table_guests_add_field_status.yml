@@ -1,0 +1,10 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - ALTER TABLE  `guests` ADD  `status` INT( 3 ) UNSIGNED NOT NULL DEFAULT  '1' AFTER  `language` ;
+
+DOWN:
+  queries:
+    - ALTER TABLE `guests` DROP `status`;

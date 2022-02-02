@@ -1,0 +1,24 @@
+.widget_wrapper { background-color: #BEBEBE; border: 1px #728085 solid; }
+header {  
+	/*background-color: #728085;*/
+	background: #bdc3c7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer { color: #fff; }
+
+.host_area { background-color: #728085; }	
+.hostname { color: #fff; }
+
+.statistics .statsbar { background: #414549; }
+.statistics .statsbar .box { color: #ddd; }
+.statistics .statsbar .box small { color: #aaa;}
+.statistics .statsbar .box1 { border-right: 1px #BEBEBE solid; }
+.statistics .statsbar .box2 { border-right: 1px #BEBEBE solid; }
+
+.comment_bulb { background-color: #414549; color: #eee;  }
+.comment_bulb .gsi_small { background-color: #333; border: 1px #38798C solid; color: #BEBEBE; }
+
+table.trend-table tr td { background-color: #728085; border-right: 1px #BEBEBE solid; }
+table.trend-table tr td span { background-color: #414549;  }

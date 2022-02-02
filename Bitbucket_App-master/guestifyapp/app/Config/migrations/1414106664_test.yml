@@ -1,0 +1,10 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - SELECT * FROM `schema_migrations` WHERE 1;
+
+DOWN:
+  queries:
+    - SELECT * FROM `schema_migrations` WHERE 1;

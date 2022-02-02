@@ -1,0 +1,19 @@
+
+[36mWelcome to CakePHP v2.4.2 Console[0m
+---------------------------------------------------------------
+App : app
+Path: /home/thenightcoder/Projects/guestify/guestifyapp/app/
+---------------------------------------------------------------
+starting scraper...
+scraping page with index: 1
+detailpage-links collected: 8
+scraping detailpage: http://www.restaurant-kritik.de/36797
+scraping detailpage: http://www.restaurant-kritik.de/36996
+scraping detailpage: http://www.restaurant-kritik.de/36697
+scraping detailpage: http://www.restaurant-kritik.de/84174
+scraping detailpage: http://www.restaurant-kritik.de/119853
+scraping detailpage: http://www.restaurant-kritik.de/4299
+scraping detailpage: http://www.restaurant-kritik.de/101733
+scraping detailpage: http://www.restaurant-kritik.de/1880
+scraping done, preparing datasets...
+done, datesets are:

@@ -1,0 +1,1123 @@
+<?php
+/**
+ * PollsViewFixture
+ *
+ */
+class PollsViewFixture extends CakeTestFixture {
+
+/**
+ * Import
+ *
+ * @var array
+ */
+	public $import = array('table' => 'polls_views');
+
+/**
+ * Records
+ *
+ * @var array
+ */
+	public $records = array(
+		array(
+			'id' => '1',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => '8dard9tlcuqnsgomb40e6c5lp3',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-08 13:54:13',
+			'modified' => '2014-10-08 13:54:13',
+			'deleted' => 0
+		),
+		array(
+			'id' => '2',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => '8dard9tlcuqnsgomb40e6c5lp3',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-08 13:57:09',
+			'modified' => '2014-10-08 13:57:09',
+			'deleted' => 0
+		),
+		array(
+			'id' => '3',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => '0j1fjmem5qbuebfaf5249h40g4',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-10 21:50:37',
+			'modified' => '2014-10-10 21:50:37',
+			'deleted' => 0
+		),
+		array(
+			'id' => '4',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => '0j1fjmem5qbuebfaf5249h40g4',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-10 21:51:37',
+			'modified' => '2014-10-10 21:51:37',
+			'deleted' => 0
+		),
+		array(
+			'id' => '5',
+			'poll_id' => '1',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => '0j1fjmem5qbuebfaf5249h40g4',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-10 21:55:49',
+			'modified' => '2014-10-10 21:55:49',
+			'deleted' => 0
+		),
+		array(
+			'id' => '6',
+			'poll_id' => '1',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => '0j1fjmem5qbuebfaf5249h40g4',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-10 21:55:53',
+			'modified' => '2014-10-10 21:55:53',
+			'deleted' => 0
+		),
+		array(
+			'id' => '7',
+			'poll_id' => '1',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => '0j1fjmem5qbuebfaf5249h40g4',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-10 21:55:53',
+			'modified' => '2014-10-10 21:55:53',
+			'deleted' => 0
+		),
+		array(
+			'id' => '8',
+			'poll_id' => '1',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => '0j1fjmem5qbuebfaf5249h40g4',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-10 21:55:54',
+			'modified' => '2014-10-10 21:55:54',
+			'deleted' => 0
+		),
+		array(
+			'id' => '9',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 16:31:12',
+			'modified' => '2014-10-11 16:31:12',
+			'deleted' => 0
+		),
+		array(
+			'id' => '10',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:35:29',
+			'modified' => '2014-10-11 19:35:29',
+			'deleted' => 0
+		),
+		array(
+			'id' => '11',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:39:05',
+			'modified' => '2014-10-11 19:39:05',
+			'deleted' => 0
+		),
+		array(
+			'id' => '12',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:40:09',
+			'modified' => '2014-10-11 19:40:09',
+			'deleted' => 0
+		),
+		array(
+			'id' => '13',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:40:38',
+			'modified' => '2014-10-11 19:40:38',
+			'deleted' => 0
+		),
+		array(
+			'id' => '14',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:41:46',
+			'modified' => '2014-10-11 19:41:46',
+			'deleted' => 0
+		),
+		array(
+			'id' => '15',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:52:35',
+			'modified' => '2014-10-11 19:52:35',
+			'deleted' => 0
+		),
+		array(
+			'id' => '16',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:52:44',
+			'modified' => '2014-10-11 19:52:44',
+			'deleted' => 0
+		),
+		array(
+			'id' => '17',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:52:49',
+			'modified' => '2014-10-11 19:52:49',
+			'deleted' => 0
+		),
+		array(
+			'id' => '18',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:53:34',
+			'modified' => '2014-10-11 19:53:34',
+			'deleted' => 0
+		),
+		array(
+			'id' => '19',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:54:13',
+			'modified' => '2014-10-11 19:54:13',
+			'deleted' => 0
+		),
+		array(
+			'id' => '20',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:54:33',
+			'modified' => '2014-10-11 19:54:33',
+			'deleted' => 0
+		),
+		array(
+			'id' => '21',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:54:53',
+			'modified' => '2014-10-11 19:54:53',
+			'deleted' => 0
+		),
+		array(
+			'id' => '22',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:55:06',
+			'modified' => '2014-10-11 19:55:06',
+			'deleted' => 0
+		),
+		array(
+			'id' => '23',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:55:30',
+			'modified' => '2014-10-11 19:55:30',
+			'deleted' => 0
+		),
+		array(
+			'id' => '24',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:55:51',
+			'modified' => '2014-10-11 19:55:51',
+			'deleted' => 0
+		),
+		array(
+			'id' => '25',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:56:21',
+			'modified' => '2014-10-11 19:56:21',
+			'deleted' => 0
+		),
+		array(
+			'id' => '26',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:57:39',
+			'modified' => '2014-10-11 19:57:39',
+			'deleted' => 0
+		),
+		array(
+			'id' => '27',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:59:23',
+			'modified' => '2014-10-11 19:59:23',
+			'deleted' => 0
+		),
+		array(
+			'id' => '28',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:59:55',
+			'modified' => '2014-10-11 19:59:55',
+			'deleted' => 0
+		),
+		array(
+			'id' => '29',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 19:59:55',
+			'modified' => '2014-10-11 19:59:55',
+			'deleted' => 0
+		),
+		array(
+			'id' => '30',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 20:00:47',
+			'modified' => '2014-10-11 20:00:47',
+			'deleted' => 0
+		),
+		array(
+			'id' => '31',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 20:01:21',
+			'modified' => '2014-10-11 20:01:21',
+			'deleted' => 0
+		),
+		array(
+			'id' => '32',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 20:01:55',
+			'modified' => '2014-10-11 20:01:55',
+			'deleted' => 0
+		),
+		array(
+			'id' => '33',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 20:02:07',
+			'modified' => '2014-10-11 20:02:07',
+			'deleted' => 0
+		),
+		array(
+			'id' => '34',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 20:03:14',
+			'modified' => '2014-10-11 20:03:14',
+			'deleted' => 0
+		),
+		array(
+			'id' => '35',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 20:03:26',
+			'modified' => '2014-10-11 20:03:26',
+			'deleted' => 0
+		),
+		array(
+			'id' => '36',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 20:03:28',
+			'modified' => '2014-10-11 20:03:28',
+			'deleted' => 0
+		),
+		array(
+			'id' => '37',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 20:03:51',
+			'modified' => '2014-10-11 20:03:51',
+			'deleted' => 0
+		),
+		array(
+			'id' => '38',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 20:04:47',
+			'modified' => '2014-10-11 20:04:47',
+			'deleted' => 0
+		),
+		array(
+			'id' => '39',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 20:05:16',
+			'modified' => '2014-10-11 20:05:16',
+			'deleted' => 0
+		),
+		array(
+			'id' => '40',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'lrp6bdjgpr2941e9pvosmjjqi2',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 20:06:11',
+			'modified' => '2014-10-11 20:06:11',
+			'deleted' => 0
+		),
+		array(
+			'id' => '41',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 21:58:39',
+			'modified' => '2014-10-11 21:58:39',
+			'deleted' => 0
+		),
+		array(
+			'id' => '42',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 23:26:09',
+			'modified' => '2014-10-11 23:26:09',
+			'deleted' => 0
+		),
+		array(
+			'id' => '43',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 23:26:50',
+			'modified' => '2014-10-11 23:26:50',
+			'deleted' => 0
+		),
+		array(
+			'id' => '44',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 23:48:40',
+			'modified' => '2014-10-11 23:48:40',
+			'deleted' => 0
+		),
+		array(
+			'id' => '45',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 23:49:50',
+			'modified' => '2014-10-11 23:49:50',
+			'deleted' => 0
+		),
+		array(
+			'id' => '46',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 23:50:12',
+			'modified' => '2014-10-11 23:50:12',
+			'deleted' => 0
+		),
+		array(
+			'id' => '47',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-11 23:54:27',
+			'modified' => '2014-10-11 23:54:27',
+			'deleted' => 0
+		),
+		array(
+			'id' => '48',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 00:12:03',
+			'modified' => '2014-10-12 00:12:03',
+			'deleted' => 0
+		),
+		array(
+			'id' => '49',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 00:12:48',
+			'modified' => '2014-10-12 00:12:48',
+			'deleted' => 0
+		),
+		array(
+			'id' => '50',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 00:31:51',
+			'modified' => '2014-10-12 00:31:51',
+			'deleted' => 0
+		),
+		array(
+			'id' => '51',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 00:32:54',
+			'modified' => '2014-10-12 00:32:54',
+			'deleted' => 0
+		),
+		array(
+			'id' => '52',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 00:34:49',
+			'modified' => '2014-10-12 00:34:49',
+			'deleted' => 0
+		),
+		array(
+			'id' => '53',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 00:36:06',
+			'modified' => '2014-10-12 00:36:06',
+			'deleted' => 0
+		),
+		array(
+			'id' => '54',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 00:38:45',
+			'modified' => '2014-10-12 00:38:45',
+			'deleted' => 0
+		),
+		array(
+			'id' => '55',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 00:39:42',
+			'modified' => '2014-10-12 00:39:42',
+			'deleted' => 0
+		),
+		array(
+			'id' => '56',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 00:43:31',
+			'modified' => '2014-10-12 00:43:31',
+			'deleted' => 0
+		),
+		array(
+			'id' => '57',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 00:44:13',
+			'modified' => '2014-10-12 00:44:13',
+			'deleted' => 0
+		),
+		array(
+			'id' => '58',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 00:44:14',
+			'modified' => '2014-10-12 00:44:14',
+			'deleted' => 0
+		),
+		array(
+			'id' => '59',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 00:44:41',
+			'modified' => '2014-10-12 00:44:41',
+			'deleted' => 0
+		),
+		array(
+			'id' => '60',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 00:44:51',
+			'modified' => '2014-10-12 00:44:51',
+			'deleted' => 0
+		),
+		array(
+			'id' => '61',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'ge3og004mufnn2cliihkv6amk7',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 00:56:38',
+			'modified' => '2014-10-12 00:56:38',
+			'deleted' => 0
+		),
+		array(
+			'id' => '62',
+			'poll_id' => '6',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => '7l86uou0veflsllnck41ebms62',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 01:21:24',
+			'modified' => '2014-10-12 01:21:24',
+			'deleted' => 0
+		),
+		array(
+			'id' => '63',
+			'poll_id' => '6',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => '7l86uou0veflsllnck41ebms62',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 01:21:31',
+			'modified' => '2014-10-12 01:21:31',
+			'deleted' => 0
+		),
+		array(
+			'id' => '64',
+			'poll_id' => '6',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => '7l86uou0veflsllnck41ebms62',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 02:35:16',
+			'modified' => '2014-10-12 02:35:16',
+			'deleted' => 0
+		),
+		array(
+			'id' => '65',
+			'poll_id' => '6',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => '7l86uou0veflsllnck41ebms62',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 02:35:31',
+			'modified' => '2014-10-12 02:35:31',
+			'deleted' => 0
+		),
+		array(
+			'id' => '66',
+			'poll_id' => '6',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => '7l86uou0veflsllnck41ebms62',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 02:35:37',
+			'modified' => '2014-10-12 02:35:37',
+			'deleted' => 0
+		),
+		array(
+			'id' => '67',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36',
+			'session_id' => 'rq30cvlv55ef28n61lli6prb54',
+			'ip' => '127.0.0.1',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 03:03:40',
+			'modified' => '2014-10-12 03:03:40',
+			'deleted' => 0
+		),
+		array(
+			'id' => '68',
+			'poll_id' => '6',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
+			'session_id' => 'tdubn74pct8fbip2d5qh3a8ns6',
+			'ip' => '10.240.245.245',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-12 22:29:30',
+			'modified' => '2014-10-12 22:29:30',
+			'deleted' => 0
+		),
+		array(
+			'id' => '69',
+			'poll_id' => '6',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
+			'session_id' => '0oda84ugr68t41id81ruu4du57',
+			'ip' => '10.33.160.199',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-16 18:32:27',
+			'modified' => '2014-10-16 18:32:27',
+			'deleted' => 0
+		),
+		array(
+			'id' => '70',
+			'poll_id' => '6',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
+			'session_id' => '0oda84ugr68t41id81ruu4du57',
+			'ip' => '10.240.245.245',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-16 18:32:33',
+			'modified' => '2014-10-16 18:32:33',
+			'deleted' => 0
+		),
+		array(
+			'id' => '71',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
+			'session_id' => 'tsrpfr1f0nr4thc357dbuct3h6',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-26 21:50:10',
+			'modified' => '2014-10-26 21:50:10',
+			'deleted' => 0
+		),
+		array(
+			'id' => '72',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
+			'session_id' => 'tsrpfr1f0nr4thc357dbuct3h6',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-26 21:51:00',
+			'modified' => '2014-10-26 21:51:00',
+			'deleted' => 0
+		),
+		array(
+			'id' => '73',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
+			'session_id' => 'tsrpfr1f0nr4thc357dbuct3h6',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-26 21:51:07',
+			'modified' => '2014-10-26 21:51:07',
+			'deleted' => 0
+		),
+		array(
+			'id' => '74',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
+			'session_id' => '7daigq2nod99i10cr3qe7i6k97',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-27 13:31:46',
+			'modified' => '2014-10-27 13:31:46',
+			'deleted' => 0
+		),
+		array(
+			'id' => '75',
+			'poll_id' => '3',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
+			'session_id' => '7daigq2nod99i10cr3qe7i6k97',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2014-10-27 13:31:50',
+			'modified' => '2014-10-27 13:31:50',
+			'deleted' => 0
+		),
+		array(
+			'id' => '76',
+			'poll_id' => '7',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36',
+			'session_id' => 'aju6jk1evka3th6mm76fcehfi5',
+			'ip' => '62.113.250.64',
+			'language' => 'de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4',
+			'created' => '2014-10-29 17:12:57',
+			'modified' => '2014-10-29 17:12:57',
+			'deleted' => 0
+		),
+		array(
+			'id' => '77',
+			'poll_id' => '9',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+			'session_id' => 't9rmufvg5bln9odgtopv8g7as4',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2015-07-08 13:30:50',
+			'modified' => '2015-07-08 13:30:50',
+			'deleted' => 0
+		),
+		array(
+			'id' => '78',
+			'poll_id' => '9',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+			'session_id' => 't9rmufvg5bln9odgtopv8g7as4',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2015-07-08 13:30:56',
+			'modified' => '2015-07-08 13:30:56',
+			'deleted' => 0
+		),
+		array(
+			'id' => '79',
+			'poll_id' => '9',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+			'session_id' => 't9rmufvg5bln9odgtopv8g7as4',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2015-07-08 13:31:04',
+			'modified' => '2015-07-08 13:31:04',
+			'deleted' => 0
+		),
+		array(
+			'id' => '80',
+			'poll_id' => '9',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+			'session_id' => 't9rmufvg5bln9odgtopv8g7as4',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2015-07-08 13:31:08',
+			'modified' => '2015-07-08 13:31:08',
+			'deleted' => 0
+		),
+		array(
+			'id' => '81',
+			'poll_id' => '9',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+			'session_id' => 't9rmufvg5bln9odgtopv8g7as4',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2015-07-08 13:31:11',
+			'modified' => '2015-07-08 13:31:11',
+			'deleted' => 0
+		),
+		array(
+			'id' => '82',
+			'poll_id' => '9',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+			'session_id' => 'b43t2dn10rfefb0uu20oeqt0u0',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2015-07-08 13:34:38',
+			'modified' => '2015-07-08 13:34:38',
+			'deleted' => 0
+		),
+		array(
+			'id' => '83',
+			'poll_id' => '9',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+			'session_id' => 'b43t2dn10rfefb0uu20oeqt0u0',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2015-07-08 13:34:41',
+			'modified' => '2015-07-08 13:34:41',
+			'deleted' => 0
+		),
+		array(
+			'id' => '84',
+			'poll_id' => '9',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+			'session_id' => 'b43t2dn10rfefb0uu20oeqt0u0',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2015-07-08 13:34:51',
+			'modified' => '2015-07-08 13:34:51',
+			'deleted' => 0
+		),
+		array(
+			'id' => '85',
+			'poll_id' => '9',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+			'session_id' => '4jaqqncsm966m65f6n2ulk1936',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2015-07-08 14:06:07',
+			'modified' => '2015-07-08 14:06:07',
+			'deleted' => 0
+		),
+		array(
+			'id' => '86',
+			'poll_id' => '9',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+			'session_id' => '4jaqqncsm966m65f6n2ulk1936',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2015-07-08 14:06:11',
+			'modified' => '2015-07-08 14:06:11',
+			'deleted' => 0
+		),
+		array(
+			'id' => '87',
+			'poll_id' => '9',
+			'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+			'session_id' => '4jaqqncsm966m65f6n2ulk1936',
+			'ip' => '62.113.250.64',
+			'language' => 'de,de-DE;q=0.8,en-US;q=0.6,en;q=0.4,ru;q=0.2',
+			'created' => '2015-07-08 14:06:14',
+			'modified' => '2015-07-08 14:06:14',
+			'deleted' => 0
+		),
+		array(
+			'id' => '88',
+			'poll_id' => '10',
+			'user_agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36',
+			'session_id' => 'rvjfa783oqeeekv9p608tjr420',
+			'ip' => '62.113.250.64',
+			'language' => 'de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4',
+			'created' => '2015-07-20 09:35:05',
+			'modified' => '2015-07-20 09:35:05',
+			'deleted' => 0
+		),
+		array(
+			'id' => '89',
+			'poll_id' => '10',
+			'user_agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36',
+			'session_id' => 'rvjfa783oqeeekv9p608tjr420',
+			'ip' => '62.113.250.64',
+			'language' => 'de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4',
+			'created' => '2015-07-20 09:37:18',
+			'modified' => '2015-07-20 09:37:18',
+			'deleted' => 0
+		),
+		array(
+			'id' => '90',
+			'poll_id' => '10',
+			'user_agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36',
+			'session_id' => 'rvjfa783oqeeekv9p608tjr420',
+			'ip' => '62.113.250.64',
+			'language' => 'de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4',
+			'created' => '2015-07-20 09:39:50',
+			'modified' => '2015-07-20 09:39:50',
+			'deleted' => 0
+		),
+		array(
+			'id' => '91',
+			'poll_id' => '10',
+			'user_agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36',
+			'session_id' => 'rvjfa783oqeeekv9p608tjr420',
+			'ip' => '62.113.250.64',
+			'language' => 'de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4',
+			'created' => '2015-07-20 09:39:51',
+			'modified' => '2015-07-20 09:39:51',
+			'deleted' => 0
+		),
+		array(
+			'id' => '92',
+			'poll_id' => '10',
+			'user_agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36',
+			'session_id' => 'rvjfa783oqeeekv9p608tjr420',
+			'ip' => '62.113.250.64',
+			'language' => 'de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4',
+			'created' => '2015-07-20 09:39:52',
+			'modified' => '2015-07-20 09:39:52',
+			'deleted' => 0
+		),
+		array(
+			'id' => '93',
+			'poll_id' => '12',
+			'user_agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0',
+			'session_id' => '9rmn0f8n3gsmj7fsrd77cga2f3',
+			'ip' => '127.0.0.1',
+			'language' => 'de,en-US;q=0.7,en;q=0.3',
+			'created' => '2015-11-23 15:18:41',
+			'modified' => '2015-11-23 15:18:41',
+			'deleted' => 0
+		),
+		array(
+			'id' => '94',
+			'poll_id' => '12',
+			'user_agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0',
+			'session_id' => '9rmn0f8n3gsmj7fsrd77cga2f3',
+			'ip' => '127.0.0.1',
+			'language' => 'de,en-US;q=0.7,en;q=0.3',
+			'created' => '2015-11-23 15:19:09',
+			'modified' => '2015-11-23 15:19:09',
+			'deleted' => 0
+		),
+		array(
+			'id' => '95',
+			'poll_id' => '12',
+			'user_agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0',
+			'session_id' => '36bjstd1ik2mpse8ddhfarsqk1',
+			'ip' => '127.0.0.1',
+			'language' => 'de,en-US;q=0.7,en;q=0.3',
+			'created' => '2015-11-23 15:21:40',
+			'modified' => '2015-11-23 15:21:40',
+			'deleted' => 0
+		),
+		array(
+			'id' => '96',
+			'poll_id' => '12',
+			'user_agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0',
+			'session_id' => '36bjstd1ik2mpse8ddhfarsqk1',
+			'ip' => '127.0.0.1',
+			'language' => 'de,en-US;q=0.7,en;q=0.3',
+			'created' => '2015-11-23 15:21:45',
+			'modified' => '2015-11-23 15:21:45',
+			'deleted' => 0
+		),
+		array(
+			'id' => '97',
+			'poll_id' => '12',
+			'user_agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0',
+			'session_id' => 'ksu4f1gom9sfeq5uhunjiioun3',
+			'ip' => '127.0.0.1',
+			'language' => 'de,en-US;q=0.7,en;q=0.3',
+			'created' => '2015-11-23 15:22:46',
+			'modified' => '2015-11-23 15:22:46',
+			'deleted' => 0
+		),
+		array(
+			'id' => '98',
+			'poll_id' => '12',
+			'user_agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0',
+			'session_id' => 'ksu4f1gom9sfeq5uhunjiioun3',
+			'ip' => '127.0.0.1',
+			'language' => 'de,en-US;q=0.7,en;q=0.3',
+			'created' => '2015-11-23 15:22:50',
+			'modified' => '2015-11-23 15:22:50',
+			'deleted' => 0
+		),
+		array(
+			'id' => '99',
+			'poll_id' => '12',
+			'user_agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0',
+			'session_id' => '4qi8fjh9rnvtf391tb1dfoqn37',
+			'ip' => '127.0.0.1',
+			'language' => 'de,en-US;q=0.7,en;q=0.3',
+			'created' => '2015-11-23 15:23:31',
+			'modified' => '2015-11-23 15:23:31',
+			'deleted' => 0
+		),
+		array(
+			'id' => '100',
+			'poll_id' => '12',
+			'user_agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0',
+			'session_id' => '4qi8fjh9rnvtf391tb1dfoqn37',
+			'ip' => '127.0.0.1',
+			'language' => 'de,en-US;q=0.7,en;q=0.3',
+			'created' => '2015-11-23 15:23:35',
+			'modified' => '2015-11-23 15:23:35',
+			'deleted' => 0
+		),
+	);
+
+}

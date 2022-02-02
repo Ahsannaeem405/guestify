@@ -1,0 +1,115 @@
+body { background-color: transparent;}
+
+small { font-size: 75%; }
+.widget_wrapper { display: block; border-radius: 5px; margin: 0px; position: relative; overflow: hidden;}
+.left_side, .right_side { width: 50%; display: block; float: left; }
+
+header { height: 90px; }
+header, footer { width: 100%; }
+footer { height: 25px;  position: absolute; bottom: 0; }
+content  { width: 100%; display: block; padding: 10px 0;}
+
+section { display: block; }
+
+/* Header */
+.gsi_container {
+	display: block; 
+	margin: 0 auto; 
+	width: 80px;
+	padding: 5px 10px 0 10px;
+	height: 60px;
+}
+.element_gsi { 
+	background: #333; 
+	border: 2px #38798C solid;
+	color: #fff; 
+	display: block; 
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.8em;
+	text-align: center; 
+	margin: 0 auto;
+	width: 50px; 
+	height: 50px; 
+	border-radius: 25px;
+	line-height: 46px;
+	vertical-align: middle;
+	text-shadow: 0px 1px 0 #000;
+}
+.element_ratinglabel { 
+	position: relative; 
+	top: -10px; 
+	margin: 0 auto;
+}
+.element_ratinglabel small { display: block;}
+
+.logo_container { padding: 3px;}
+.logo { width: 50px; height: 50px; margin: 3px auto 1px; background: #ddd; border: 2px #fff solid; border-radius: 25px; overflow: hidden; }
+
+/* Main content */
+
+.host_area { margin-top: 5px;}	
+.hostname { font-family: 'Oswald', sans-serif; font-size: 1.2em; margin: 0; line-height: 100%; font-weight: normal; padding: 5px 0;  }
+
+/* Statistics */
+.statistics .statsbar { height: 45px; display: block; border-radius: 5px; margin-bottom: 5px; }
+.statistics .statsbar .box { width: 50%; padding: 5px; text-align: center; float: left;   }
+.statistics .statsbar .box figure { font-size: 1.1em; font-weight: 700; line-height: 100%; }
+
+/* Comment section */
+.comment_bulb { display: block; line-height: 18px; text-align: left; }
+.comment_bulb .gsi_small {  font-family: 'Oswald', sans-serif;  height: 20px; width: 20px; text-align: center; display: inline-block; border-radius: 10px; }
+.content.comment-carousel { height: 30px; }
+
+.vertical .carousel-inner {
+	  height: 100%;
+	}
+
+.carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+
+.carousel.vertical .active {
+  top: 0;
+}
+
+.carousel.vertical .next {
+  top: 50px;
+}
+
+.carousel.vertical .prev {
+  top: -50px;
+}
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+.carousel.vertical .active.left {
+  top: -50px;
+}
+
+.carousel.vertical .active.right {
+  top: 50px;
+}
+
+.carousel.vertical .item {
+    left: 0;
+}
+
+/* Trend section */
+.trend { height: 45px; display: block; border-radius: 5px; }
+.trend .trend-container { height: 45px; }
+table.trend-table { height: 45px; width: 100%; }
+table.trend-table tr td span { width: 100%; display: block; }
+table.trend-table.month_1 tr td { width: 3.3%; }
+table.trend-table .date_chart { float: left; width: 33%;}
+
+/* Footer */
+footer a { color: #fff; font-style: italic; }
+footer .guestify_logo { display: block; height: 20px; width: 20px; border-radius: 3px; margin-bottom: 5px; }
+

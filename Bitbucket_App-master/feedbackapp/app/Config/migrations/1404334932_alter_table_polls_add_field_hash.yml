@@ -1,0 +1,12 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - ALTER TABLE  `polls` ADD  `hash` VARCHAR( 10 ) NULL DEFAULT NULL AFTER `id` ;
+    - UPDATE `polls` SET `hash` = 'fb85fa99ce' WHERE `id` = 1;
+
+
+DOWN:
+  queries:
+    - ALTER TABLE `polls` DROP `hash`;

@@ -1,0 +1,10 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - ALTER TABLE  `users` ADD  `welcome_mail_count` INT( 11 ) UNSIGNED NOT NULL DEFAULT  '0' AFTER  `valid_until` ;
+
+DOWN:
+  queries:
+    - ALTER TABLE `users` DROP `welcome_mail_count`;

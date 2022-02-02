@@ -1,0 +1,37 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - |
+        CREATE TABLE IF NOT EXISTS `logs_emails` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `type` varchar(500) DEFAULT NULL,
+            `message_id` varchar(200) DEFAULT NULL,
+            `topic_arn` varchar(200) DEFAULT NULL,
+            `notification_type` varchar(100) DEFAULT NULL,
+            `mail_timestamp` varchar(100) DEFAULT NULL,
+            `mail_source` varchar(500) DEFAULT NULL,
+            `mail_message_id` varchar(200) DEFAULT NULL,
+            `mail_destination` varchar(500) DEFAULT NULL,
+            `delivery_timestamp` varchar(100) DEFAULT NULL,
+            `delivery_processing_time` varchar(50) DEFAULT NULL,
+            `delivery_recipients` varchar(500) DEFAULT NULL,
+            `delivery_smtp_response` mediumtext,
+            `delivery_reporting_mta` mediumtext,
+            `timestamp` varchar(200) DEFAULT NULL,
+            `signature_version` varchar(200) DEFAULT NULL,
+            `signature` mediumtext,
+            `signing_cert_url` mediumtext,
+            `unsubscribe_url` mediumtext,
+            `data_origin` longtext,
+            `created` datetime NOT NULL,
+            `modified` datetime NOT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+
+DOWN:
+  queries:
+    - DROP CREATE `logs_emails`;

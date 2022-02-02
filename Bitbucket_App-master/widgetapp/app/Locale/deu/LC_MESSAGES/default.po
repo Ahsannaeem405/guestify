@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: guestify\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-05 03:21+0100\n"
+"PO-Revision-Date: 2014-10-05 04:09+0100\n"
+"Last-Translator: Erik Blumstengel <e.blumstengel@gmail.com>\n"
+"Language-Team: DC <info@digital-cube.de>\n"
+"Language: de-DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../Model/Poll.php:201
+msgid "This is my first visit"
+msgstr "Das ist mein erster Besuch"
+
+#: ../../../Model/Poll.php:202
+msgid "I am rarely here"
+msgstr "Ich bin selten hier"
+
+#: ../../../Model/Poll.php:203
+msgid "I am occasionally here"
+msgstr "Ich bin gelegentlich hier"
+
+#: ../../../Model/Poll.php:204
+msgid "I am a regular guest"
+msgstr "Ich bin Stammgast"
+
+#: ../../../Model/Poll.php:219
+msgid "Evening"
+msgstr "Abend"
+
+#: ../../../Model/Poll.php:220
+msgid "Midday"
+msgstr "Mittag"
+
+#: ../../../Model/Poll.php:221
+msgid "Morning"
+msgstr "Morgen"
+
+#: ../../../Model/Poll.php:287 ../../../Model/Poll.php:290
+msgid "Please select!"
+msgstr "Bitte wählen..."
+
+#: ../../../Model/Poll.php:324 ../../../Model/Poll.php:327
+msgid "Please select an option!"
+msgstr "Bitte wählen..."
+
+#: ../../../Controller/UsersController.php:39
+msgid "Login failed! Wrong username or password?"
+msgstr ""
+
+#: ../../../Controller/UsersController.php:59
+msgid "You have been logged out successfully!"
+msgstr ""
+
+#: ../../../Controller/PollsController.php:37
+msgid "Please enter your PIN!"
+msgstr "Bitte PIN eingeben"
+
+#: ../../../Controller/PollsController.php:39
+msgid "Sorry, wrong PIN!"
+msgstr "Tut uns Leid, falscher PIN!"
+
+#: ../../../Controller/PollsController.php:48
+#: ../../../Controller/PollsController.php:122
+#: ../../../Controller/PollsController.php:132
+msgid "Some information is missing!"
+msgstr "Einige Informationen fehlen!"
+
+#: ../../../View/Pages/basic-gettext.ctp:3
+msgid "Food and beverages"
+msgstr "Essen und Trinken"
+
+#: ../../../View/Pages/basic-gettext.ctp:4
+msgid "Range of food"
+msgstr "Angebot von Speisen"
+
+#: ../../../View/Pages/basic-gettext.ctp:5
+msgid "Quality of food"
+msgstr "Qualität von Speisen"
+
+#: ../../../View/Pages/basic-gettext.ctp:6
+msgid "Presentation of food"
+msgstr "Päsentation vom Essen"
+
+#: ../../../View/Pages/basic-gettext.ctp:7
+msgid "Range of beverages and wines"
+msgstr "Angebot von Getränke und Weine"
+
+#: ../../../View/Pages/basic-gettext.ctp:8
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: ../../../View/Pages/basic-gettext.ctp:9
+msgid "Ambience & decor"
+msgstr "Atmosphäre und Dekoration"
+
+#: ../../../View/Pages/basic-gettext.ctp:10
+msgid "Waiting time"
+msgstr "Wartezeiten"
+
+#: ../../../View/Pages/basic-gettext.ctp:11
+msgid "Value for money"
+msgstr "Preis-/ Leistungsverhältnis"
+
+#: ../../../View/Pages/basic-gettext.ctp:12
+msgid "Staff"
+msgstr "Mitarbeiter"
+
+#: ../../../View/Pages/basic-gettext.ctp:13
+msgid "Friendliness"
+msgstr "Freundlichkeit"
+
+#: ../../../View/Pages/basic-gettext.ctp:14
+msgid "Competence"
+msgstr "Kompetenz"
+
+#: ../../../View/Pages/basic-gettext.ctp:15
+msgid "Flexibility"
+msgstr "Flexibilität"
+
+#: ../../../View/Pages/basic-gettext.ctp:16
+msgid "Service"
+msgstr "Service"
+
+#: ../../../View/Polls/show_poll.ctp:12 ../../../View/Polls/auth.ctp:11
+msgid "Guest Feedback"
+msgstr "Gäste Feedback"
+
+#: ../../../View/Polls/show_poll.ctp:123
+msgid "Please answer this question!"
+msgstr "Bitte beantworten Sie diese Frage!"
+
+#: ../../../View/Polls/show_poll.ctp:138
+msgid "Restaurant visit"
+msgstr "Restaurantbesuch"
+
+#: ../../../View/Polls/show_poll.ctp:146
+msgid "Is this your first visit...?"
+msgstr "Ist das Ihr erster Besuch...?"
+
+#: ../../../View/Polls/show_poll.ctp:159
+msgid "Visit time..."
+msgstr "Besuchszeit ..."
+
+#: ../../../View/Polls/show_poll.ctp:171
+msgid "Rate"
+msgstr "Abstimmen"
+
+#: ../../../View/Polls/show_poll.ctp:176
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: ../../../View/Polls/show_poll.ctp:188
+msgid "Thank your very much!"
+msgstr "Herzlichen Dank!"
+
+#: ../../../View/Polls/show_poll.ctp:189
+msgid "We appreciate your feedback and we will do our best to be better."
+msgstr ""
+"Wir schätzen Ihr Feedback und wir werden unser Bestes tun, noch besser zu "
+"werden."
+
+#: ../../../View/Polls/show_poll.ctp:194
+msgid "Public Check in &amp; rating!"
+msgstr "Öffentliche Check Ins &amp; Bewertung"
+
+#: ../../../View/Polls/show_poll.ctp:207
+msgid "Follow us!"
+msgstr "Folge uns!"
+
+#: ../../../View/Polls/show_poll.ctp:210
+msgid "Like us on Facebook"
+msgstr "Liken auf Facebook"
+
+#: ../../../View/Polls/show_poll.ctp:228 ../../../View/Polls/auth.ctp:96
+msgid "All ratings are stored anonymously for"
+msgstr "Alle Abstimmungen sind anonym gespeichert für"
+
+#: ../../../View/Polls/show_poll.ctp:229 ../../../View/Polls/auth.ctp:97
+msgid "Guest feedback powered by"
+msgstr "Gäste Feedback powered by"
+
+#: ../../../View/Polls/auth.ctp:40 ../../../View/Polls/auth.ctp:49
+msgid "Deutsch"
+msgstr "Deutsch"
+
+#: ../../../View/Polls/auth.ctp:42 ../../../View/Polls/auth.ctp:50
+msgid "English"
+msgstr "Englisch"
+
+#: ../../../View/Polls/auth.ctp:64
+msgid "Please enter PIN"
+msgstr "Bitte PIN eingeben"
+
+#: ../../../View/Polls/auth.ctp:76
+msgid "Start Feedback"
+msgstr "Feedback starten"
+
+#: ../../../View/Layouts/default.ctp:26
+msgid ""
+"Guestify - simple and valuable customer feedback & ratings for your "
+"restaurant"
+msgstr ""
+"Guestify - einfaches und wertvolles Kundenfeedback & Votings für Ihr "
+"Restaurant"
+
+#: ../../../View/Layouts/default.ctp:33
+msgid "We invite you to give us your feedback"
+msgstr "Wir laden Sie herzlich ein, uns ein Feedback zu geben."
+
+#: ../../../View/Layouts/default.ctp:83
+msgid "Please go our product page for more information."
+msgstr "Bitte gehen Sie auf unsere Produktwebseite für mehr Informationen."
+
+#~ msgid "Copyright"
+#~ msgstr "Urheberschutz"
+
+#~ msgid "All Rights Reserved."
+#~ msgstr "Alle Rechte vorbehalten"
+
+#~ msgid "powered by guestify.net"
+#~ msgstr "powered by guestify.net"

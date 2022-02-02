@@ -1,0 +1,11 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - ALTER TABLE  `hosts` ADD  `logo` VARCHAR( 200 ) NULL DEFAULT NULL AFTER  `name` ;
+
+
+DOWN:
+  queries:
+    - ALTER TABLE `hosts` DROP `logo`;

@@ -1,0 +1,21 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - |
+        CREATE TABLE `upgrades` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `account_id` int(11) unsigned NOT NULL,
+            `host_id` int(11) unsigned NOT NULL,
+            `poll_id` int(11) unsigned NOT NULL,
+            `valid_until` datetime NOT NULL,
+            `created` datetime NOT NULL,
+            `modified` datetime NOT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+DOWN:
+  queries:
+    - DROP TABLE upgrades;

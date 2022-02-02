@@ -1,0 +1,54 @@
+<?php
+    Configure::write('Language.default', 'eng');
+    Configure::write('debug', 0);
+    Configure::write('log', true);
+    Configure::write('Session.timeout ', '36000');
+    Configure::write('Session.cookie', 'GUESTIFY_API_LIVE_CAKEPHP');
+
+    Configure::write('Environment', 'LIVE');
+    Configure::write('Instance', 'guestifyapi');
+    Configure::write('NON_SSL_HOST', 'https://api.guestify.net');
+    Configure::write('NON_SSL_HOST_APP', 'https://guestify.net');
+    Configure::write('NON_SSL_API', 'https://api.guestify.net');
+
+    Configure::write('GOOGLE_MAPS_API_KEY', '');
+    Configure::write('ANALYTICS_TRACKING_CODE', '');
+    Configure::write('GOOGLE_WEBMASTER_KEY', '');
+
+    Configure::write('Email.dev', 'appadmin@guestify.net');
+    Configure::write('Email.no_reply_email', 'noreply@guestify.net');
+    Configure::write('Email.no_reply_name', 'guestify.net');
+
+    Configure::write('Email.payment_notification', 'billing@guestify.net');
+
+    # media settings
+    Configure::write('CDN.Host', 'https://s3.us-east-1.amazonaws.com/media-guestify/live/');
+
+
+    Cache::config('default', array(
+        'engine' => 'File',
+        'duration'=> 7200,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_apiapp_stage_',
+    ));
+
+    Cache::config('5mins', array(
+        'engine' => 'File',
+        'duration'=> 300,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_apiapp_stage_',
+    ));
+
+    Cache::config('short', array(
+        'engine' => 'File',
+        'duration'=> 600,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_apiapp_stage_',
+    ));
+
+    Cache::config('long', array(
+        'engine' => 'File',
+        'duration'=> 3600,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_apiapp_stage_',
+    ));

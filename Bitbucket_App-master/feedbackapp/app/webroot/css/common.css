@@ -1,0 +1,145 @@
+body { margin: 0; padding: 0; }
+header { }
+
+h1 { font-size: 1.6em; font-family: 'Oswald', sans-serif; margin: 0 0 .5em 0; padding: 0;}
+h1 a { font-size: 14px; display: block; height: 150px; }
+
+h2 { font-size: 1.2em; font-family: 'Oswald', sans-serif; padding: 0; margin: 0 0 .5em 0;}
+
+.content-area { }
+
+.content-area fieldset legend { 
+	margin: 0 0 .5em 0; 
+	padding: 0 0 .5em 0;
+	line-height: 100%; 
+	border: 0 none; 
+	border-bottom: 2px #eee dotted;
+	text-transform: uppercase; 
+	font-size: 16px; 
+}
+
+.question {
+	margin-bottom: 1em;
+}
+
+.content-area fieldset label { font-size: 1em; font-weight: 500;}
+
+.row.branded {
+	background-color: #059ec7;
+	color: #fff;
+	padding: 10px 0;
+	margin-bottom: 1em;
+}
+
+.withlogo img {
+	border: 2px #fff solid;
+	max-height: 100px;
+}
+
+.btn-success {
+	box-shadow: 0 3px 0 rgba(2, 139, 61, 1);
+}
+
+.jumbotron {
+	background-color: transparent;
+	background-image: url('/graphics/grey_smiley.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 40%;
+}
+
+.jumbotron h2 {
+	font-size: 2em;
+	font-family: 'Oswald', sans-serif;
+}
+
+.jumbotron p.lead {
+	font-family: 'Oswald', sans-serif;
+}
+
+input[type="range"] { height: 40px; }
+
+/* Languages */
+.language-box { margin: 0 auto 1em; }
+.lang-selected, .lang-selector { background: #fff; }
+.lang-selector { display: none;}
+.open-language-selection { cursor: pointer; }
+.flag { 
+	background-color: #fff;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 32px;
+	padding: 6px 0;
+	text-indent: 36px;
+	height: 32px;
+	display: block;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-size: 100%;
+	vertical-align: bottom;
+	}
+.flag.de { background-image: url(/graphics/flags/de.png);}
+.flag.en { background-image: url(/graphics/flags/gb.png);}
+.flag.es { background-image: url(/graphics/flags/es.png);}
+.flag.fr { background-image: url(/graphics/flags/fr.png);}
+.flag.ie { background-image: url(/graphics/flags/ie.png);}
+.flag.jp { background-image: url(/graphics/flags/jp.png);}
+.flag.nl { background-image: url(/graphics/flags/nl.png);}
+.flag.pt { background-image: url(/graphics/flags/pt.png);}
+.flag.cz { background-image: url(/graphics/flags/cz.png);}
+
+.lang-selector a.flag {
+	display: inline-block;
+	height: 64px;
+	width: 23%;
+	max-width: 64px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+ul.buttonlist { list-style: none; margin: 0 0 1em 0; padding: 0; }
+ul.buttonlist li { display: inline-block; width: 32%; padding: 10px 0; vertical-align: top; }
+ul.buttonlist li a { text-indent: -9999px; overflow: hidden; margin: 0 auto; padding: 10px; }
+
+.button { background-color: #fff; background-position: 50% 50%; background-size: 64px; background-repeat: no-repeat; border: 1px #fafafa solid; display: block; height: 66px; width: 66px; outline: none; }
+
+
+input[type='range'] {
+    -webkit-appearance: none !important;
+    background: #eee;
+    height:5px;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background:#333;
+    height:30px;
+    width:10px;
+}
+
+.form-error {
+	border-color: #a20000;
+}
+
+.scale-container  { }
+.scale_unit { background-size: 48px; background-position: 50% 50%; background-repeat: no-repeat; display: block; height: 48px; margin: 0 auto; width: 48px; padding: 5px; text-indent: -9999px; overflow: hidden;}
+.scalelegend {
+	text-transform: uppercase;
+	color: #ddd;
+}
+
+.quarter-layout, .col-xs-3.quarter-layout { width: 22.904255319148934%!important; float: left!important; }
+.fifth-layout, .col-xs-2.fifth-layout { width: 19%!important; float: left!important; margin-left: 0!important; }
+.sixth-layout, .col-xs-2.sixth-layout { width: 16.66666666666667%!important; float: left!important; margin-left: 0!important; padding-left: 5px; padding-right: 5px;}
+
+.trigger-vote.active { background-color: #47CC4A; border-radius: 10px; }
+
+
+.OK { background: url(/graphics/check_yes_ok.png) 0 0 no-repeat; display: block; height: 128px; width: 128px; margin: 0 auto; }
+
+.padding5px { padding: 5px;}
+.margin5px { margin: 5px;}
+
+.error-message {
+    color: #b94a48;
+    margin-bottom: 10px;
+}

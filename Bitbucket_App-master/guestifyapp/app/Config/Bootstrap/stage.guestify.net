@@ -1,0 +1,73 @@
+<?php
+    Configure::write('Language.default', 'eng');
+    Configure::write('debug', 1);
+    Configure::write('log', true);
+
+    Configure::write('Session.timeout ', '36000');
+    Configure::write('Session.cookie', 'GFA_STAGE_CAKEPHP');
+
+    Configure::write('Environment', 'STAGE');
+    Configure::write('Instance', 'guestifyapp');
+    Configure::write('NON_SSL_HOST', 'http://stage.guestify.net');
+    Configure::write('NON_SSL_HOST_FE', 'http://stage.polls.guestify.net');
+    Configure::write('URL_guestifyapp', 'http://stage.guestify.net');
+    Configure::write('URL_feedbackapp', 'http://stage.polls.guestify.net');
+    
+    Configure::write('GOOGLE_MAPS_API_KEY', '');
+    Configure::write('ANALYTICS_TRACKING_CODE', '');
+    Configure::write('GOOGLE_WEBMASTER_KEY', '');
+
+    Configure::write('Email.dev', 'appadmin@guestify.net');
+
+    Configure::write('Email.no_reply_email', 'noreply@guestify.net');
+    Configure::write('Email.no_reply_name', 'guestify.net');
+
+    # new media server
+    Configure::write('App.imageBaseUrl', 'https://s3.eu-central-1.amazonaws.com/media-guestify-net/stage/');
+    Configure::write('CDN.Host', 'https://s3.eu-central-1.amazonaws.com/media-guestify-net/stage/');
+
+    Configure::write('S3_IMAGESERVER_KEY', 'XXXXXXXX');
+    Configure::write('S3_IMAGESERVER_SECRET', 'XXXXXXXX');
+    Configure::write('S3_IMAGESERVER_REGION', 'eu-central-1');
+    Configure::write('S3_IMAGESERVER_VERSION', '2006-03-01');
+    Configure::write('S3_IMAGESERVER_BUCKET', 'media-guestify-net');
+
+    # Paypal setup
+    Configure::write('Paypal.API_Sandbox', true);
+    Configure::write('Paypal.API_Endpoint', 'https://api-3t.sandbox.paypal.com/nvp');
+    Configure::write('Paypal.API_UserName', 'XXXXXXXX');
+    Configure::write('Paypal.API_Password', 'XXXXXXXX');
+    Configure::write('Paypal.API_Signature', 'XXXXXXXX');
+    Configure::write('Paypal.API_Version', "117");
+
+    Configure::write('Paypal.URL_PAYPAL', 'https://www.sandbox.paypal.com/webscr?cmd=_express-checkout&useraction=commit&token=');
+    Configure::write('Paypal.URL_POLLUPGRADE_RETURN', 'https://stage.guestify.net/polls/confirmUpgradePaypal');
+    Configure::write('Paypal.URL_POLLUPGRADE_CANCEL', 'https://stage.guestify.net/polls/upgrade/');    // add poll id in controller!
+
+    Cache::config('default', array(
+        'engine' => 'File',
+        'duration'=> 7200,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_guestifyapp_stage_',
+    ));
+
+    Cache::config('5mins', array(
+        'engine' => 'File',
+        'duration'=> 300,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_guestifyapp_stage_',
+    ));
+
+    Cache::config('short', array(
+        'engine' => 'File',
+        'duration'=> 600,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_guestifyapp_stage_',
+    ));
+
+    Cache::config('long', array(
+        'engine' => 'File',
+        'duration'=> 3600,
+        'probability'=> 100,
+        'prefix' => Inflector::slug(APP_DIR) . '_guestifyapp_stage_',
+    ));

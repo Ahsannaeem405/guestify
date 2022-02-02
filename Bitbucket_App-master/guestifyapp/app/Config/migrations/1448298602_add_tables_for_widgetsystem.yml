@@ -1,0 +1,43 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - |
+        CREATE TABLE IF NOT EXISTS `widgets` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `account_id` int(11) unsigned NOT NULL,
+            `host_id` int(11) unsigned NOT NULL,
+            `poll_id` int(11) unsigned NOT NULL,
+            `name` varchar(50) NOT NULL,
+            `period` varchar(30) NOT NULL,
+            `format` varchar(30) NOT NULL,
+            `width` int(10) unsigned NOT NULL,
+            `height` int(10) unsigned NOT NULL,
+            `style` varchar(30) NOT NULL,
+            `status` tinyint(5) unsigned NOT NULL DEFAULT '0',
+            `views` int(11) unsigned NOT NULL,
+            `type` varchar(11) NOT NULL DEFAULT 'free',
+            `limits` int(11) unsigned NOT NULL,
+            `created` datetime DEFAULT NULL,
+            `modified` datetime DEFAULT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL DEFAULT '0',
+            `hash` varchar(20) NOT NULL,
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+    - |
+        CREATE TABLE IF NOT EXISTS `widget_elements` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `widget_id` int(11) unsigned NOT NULL,
+            `type` varchar(30) NOT NULL,
+            `param` varchar(30) DEFAULT NULL,
+            `created` datetime DEFAULT NULL,
+            `modified` datetime DEFAULT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+DOWN:
+  queries:
+    - DROP TABLE `widget_elements`, `widgets`;

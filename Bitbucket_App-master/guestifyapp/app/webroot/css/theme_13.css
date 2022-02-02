@@ -1,0 +1,32 @@
+/* smileys -> scale */
+.scale_1 { background-image: url(/graphics/smiley-set13/scale_1.png) ;}
+.scale_2 { background-image: url(/graphics/smiley-set13/scale_2.png) ;}
+.scale_3 { background-image: url(/graphics/smiley-set13/scale_3.png) ;}
+.scale_4 { background-image: url(/graphics/smiley-set13/scale_4.png) ;}
+.scale_5 { background-image: url(/graphics/smiley-set13/scale_5.png) ;}
+.scale_6 { background-image: url(/graphics/smiley-set13/scale_6.png) ;}
+
+.scale_unit {
+	text-indent: 0px;
+	overflow: hidden;
+	text-align: center;
+	font-size: 2em;
+	color: #7a3535;
+	line-height: 1.7em;
+	font-weight: 700;
+	text-decoration: none;
+	text-shadow: 0 1px 0px #fff;
+}
+.scale_unit:hover {
+	text-decoration: none;
+	color: #7a3535;
+}
+
+/* social buttons */
+.button.facebook { background-image: url(/graphics/social-button-set2/facebook.png);}
+.button.twitter { background-image: url(/graphics/social-button-set2/twitter.png);}
+.button.tripadvisor { background-image: url(/graphics/social-button-set2/tripadvisor.png);}
+.button.foursquare { background-image: url(/graphics/social-button-set2/foursquare.png);}
+.button.yelp { background-image: url(/graphics/social-button-set2/yelp.png);}
+.button.qype { background-image: url(/graphics/social-button-set2/qype.png);}
+.button.restkritik { background-image: url(/graphics/social-button-set2/restaurant_kritik.png);}

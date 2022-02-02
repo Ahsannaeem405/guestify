@@ -1,0 +1,12 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - ALTER TABLE  `accounts` CHANGE  `country`  `country_id` INT( 11 ) UNSIGNED NOT NULL DEFAULT  '1';
+    - UPDATE accounts SET country_id = 1;
+
+
+DOWN:
+  queries:
+    - ALTER TABLE  `accounts` CHANGE  `country_id`  `country` VARCHAR( 200 ) NULL DEFAULT NULL ;

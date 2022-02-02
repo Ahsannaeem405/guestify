@@ -1,0 +1,10 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - ALTER TABLE  `polls` CHANGE  `hash`  `hash` VARCHAR( 4 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL ;
+
+DOWN:
+  queries:
+    - ALTER TABLE  `polls` CHANGE  `hash`  `hash` VARCHAR( 10 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL ;

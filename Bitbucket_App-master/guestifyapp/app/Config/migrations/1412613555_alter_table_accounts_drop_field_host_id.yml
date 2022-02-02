@@ -1,0 +1,11 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - ALTER TABLE `accounts` DROP `host_id`;
+
+
+DOWN:
+  queries:
+    - ALTER TABLE  `accounts` ADD  `host_id` INT( 11 ) UNSIGNED NOT NULL AFTER  `ust_id`;

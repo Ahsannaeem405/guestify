@@ -1,0 +1,52 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - |
+        CREATE TABLE `trackers` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `type` varchar(100) NOT NULL,
+            `email_id` varchar(100) NOT NULL,
+            `campaign_id` varchar(100) DEFAULT NULL,
+            `status` int(3) unsigned NOT NULL,
+            `first_opened` datetime DEFAULT NULL,
+            `last_opened` datetime DEFAULT NULL,
+            `open_count` int(11) unsigned NOT NULL DEFAULT '0',
+            `sender_email` varchar(200) NOT NULL,
+            `recipient_email` varchar(200) NOT NULL,
+            `recipient_model` varchar(100) DEFAULT NULL,
+            `recipient_f_key` int(11) unsigned DEFAULT NULL,
+            `ip` varchar(100) DEFAULT NULL,
+            `user_agent` mediumtext,
+            `mail_message_id` varchar(500) DEFAULT NULL,
+            `created` datetime NOT NULL,
+            `modified` datetime NOT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+    - |
+        CREATE TABLE `trackers_links` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `tracker_id` int(11) unsigned NOT NULL,
+            `email_id` varchar(100) NOT NULL,
+            `link_id` varchar(100) NOT NULL,
+            `tracker_string` mediumtext NOT NULL,
+            `url` mediumtext NOT NULL,
+            `status` int(3) unsigned NOT NULL DEFAULT '0',
+            `first_visit` datetime DEFAULT NULL,
+            `last_visit` datetime DEFAULT NULL,
+            `visit_count` int(11) unsigned NOT NULL DEFAULT '0',
+            `ip` varchar(20) DEFAULT NULL,
+            `user_agent` varchar(500) DEFAULT NULL,
+            `lang` varchar(500) DEFAULT NULL,
+            `created` datetime NOT NULL,
+            `modified` datetime NOT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+DOWN:
+  queries:
+    - DROP TABLE `trackers`, `trackers_links`;

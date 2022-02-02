@@ -1,0 +1,20 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - |
+        CREATE TABLE `hosts_socials` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `host_id` int(11) unsigned NOT NULL,
+            `type_id` varchar(100) NOT NULL,
+            `link` varchar(500) NOT NULL,
+            `created` datetime NOT NULL,
+            `modified` datetime NOT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL DEFAULT '0',
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+DOWN:
+  queries:
+    - DROP TABLE hosts_socials;

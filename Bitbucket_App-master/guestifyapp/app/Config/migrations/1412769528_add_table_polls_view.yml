@@ -1,0 +1,24 @@
+#
+# migration YAML file
+#
+UP:
+  queries:
+    - |
+        CREATE TABLE `polls_views` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `poll_id` int(11) unsigned NOT NULL,
+            `user_agent` mediumtext NOT NULL,
+            `session_id` varchar(200) DEFAULT NULL,
+            `ip` varchar(15) NOT NULL,
+            `language` varchar(200) DEFAULT NULL,
+            `created` datetime NOT NULL,
+            `modified` datetime NOT NULL,
+            `deleted` tinyint(1) unsigned NOT NULL,
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+
+
+DOWN:
+  queries:
+    - DROP TABLE polls_views;

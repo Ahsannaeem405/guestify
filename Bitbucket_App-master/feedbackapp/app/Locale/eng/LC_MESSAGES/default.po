@@ -1,0 +1,377 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Guestify\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-25 14:07+0100\n"
+"PO-Revision-Date: 2017-10-25 14:25+0100\n"
+"Last-Translator: Jean Wichert <wjw@digital-cube.de>\n"
+"Language-Team: DC <info@digital-cube.de>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../Controller/PollsController.php:55
+msgid "Your poll received answers from a guest!"
+msgstr ""
+
+#: ../../../Controller/PollsController.php:116
+msgid "Please enter your PIN!"
+msgstr "Please enter your PIN!"
+
+#: ../../../Controller/PollsController.php:118
+msgid "Sorry, wrong PIN!"
+msgstr "Sorry, wrong PIN!"
+
+#: ../../../Controller/PollsController.php:129
+#: ../../../Controller/PollsController.php:249
+#: ../../../Controller/PollsController.php:269
+msgid "Some information is missing!"
+msgstr "Some information is missing!"
+
+#: ../../../Model/Poll.php:228
+msgid "This is my first visit"
+msgstr "This is my first visit"
+
+#: ../../../Model/Poll.php:229
+msgid "I am rarely here"
+msgstr "I am rarely here"
+
+#: ../../../Model/Poll.php:230
+msgid "I am occasionally here"
+msgstr "I am occasionally here"
+
+#: ../../../Model/Poll.php:231
+msgid "I am a regular guest"
+msgstr "I am a regular guest"
+
+#: ../../../Model/Poll.php:246
+msgid "Evening"
+msgstr "Evening"
+
+#: ../../../Model/Poll.php:247
+msgid "Midday"
+msgstr "Midday"
+
+#: ../../../Model/Poll.php:248
+msgid "Morning"
+msgstr "Morning"
+
+#: ../../../Model/Poll.php:417 ../../../Model/Poll.php:420
+msgid "Please select!"
+msgstr "Please select!"
+
+#: ../../../Model/Poll.php:424 ../../../Model/Poll.php:465
+msgid "Please enter a valid email-address!"
+msgstr ""
+
+#: ../../../Model/Poll.php:458 ../../../Model/Poll.php:461
+#, fuzzy
+msgid "Please select an option!"
+msgstr "Please select!"
+
+#: ../../../View/Emails/html/notification_poll_answer.ctp:5
+msgid "You have received a new rating!"
+msgstr ""
+
+#: ../../../View/Emails/html/notification_poll_answer.ctp:7
+msgid "The GSI of this guest is"
+msgstr ""
+
+#: ../../../View/Emails/html/notification_poll_answer.ctp:37
+msgid "Guest average rating"
+msgstr ""
+
+#: ../../../View/Emails/html/notification_poll_answer.ctp:44
+msgid "Rating"
+msgstr ""
+
+#: ../../../View/Emails/html/notification_poll_answer.ctp:61
+msgid "View all ratings of this day"
+msgstr ""
+
+#: ../../../View/Emails/html/notification_poll_answer.ctp:63
+msgid "More useful information"
+msgstr ""
+
+#: ../../../View/Emails/html/notification_poll_answer.ctp:66
+msgid "Guest type"
+msgstr ""
+
+#: ../../../View/Emails/html/notification_poll_answer.ctp:72
+#, fuzzy
+msgid "Visit time"
+msgstr "Visit time..."
+
+#: ../../../View/Emails/html/notification_poll_answer.ctp:78
+msgid "Guest comment"
+msgstr ""
+
+#: ../../../View/Emails/html/notification_poll_answer.ctp:84
+msgid "Guest name"
+msgstr ""
+
+#: ../../../View/Emails/html/notification_poll_answer.ctp:90
+#, fuzzy
+msgid "Guest email"
+msgstr "Guest Feedback"
+
+#: ../../../View/Emails/html/notification_poll_answer.ctp:96
+msgid "IP"
+msgstr ""
+
+#: ../../../View/Emails/html/notification_poll_answer.ctp:102
+msgid "User Agent"
+msgstr ""
+
+#: ../../../View/Layouts/default.ctp:26
+msgid ""
+"Guestify - simple and valuable customer feedback & ratings for your "
+"restaurant"
+msgstr ""
+"Guestify - simple and valuable customer feedback & ratings for your "
+"restaurant"
+
+#: ../../../View/Layouts/default.ctp:33
+msgid "We invite you to give us your feedback"
+msgstr "We invite you to give us your feedback"
+
+#: ../../../View/Layouts/default.ctp:77
+#, fuzzy
+msgid "Please go to our product page for more information."
+msgstr "Please go to our product website for more information."
+
+#: ../../../View/Layouts/Emails/html/default.ctp:70
+msgid "Copyright"
+msgstr "Copyright"
+
+#: ../../../View/Layouts/Emails/html/default.ctp:71
+msgid "Application service from digital:cube GmbH & Co KG, Cologne, Germany"
+msgstr ""
+
+#: ../../../View/Layouts/Emails/html/default.ctp:80
+msgid ""
+"If you have received this message in error and you have not signed up at "
+"guestify.net, then please email us via hello@guestify.net."
+msgstr ""
+
+#: ../../../View/Layouts/Emails/html/default.ctp:81
+msgid ""
+"Please do not reply to this email; this was sent from an automated email "
+"address. This message is a service email associated with your use of "
+"guestify.net"
+msgstr ""
+
+#: ../../../View/Polls/offline.ctp:23
+msgid "Meowww"
+msgstr ""
+
+#: ../../../View/Polls/offline.ctp:24
+msgid "We are sorry, but the requested poll is currently not available!"
+msgstr ""
+
+#: ../../../View/Polls/offline.ctp:34 ../../../View/Polls/show_poll.ctp:351
+#: ../../../View/Polls/auth.ctp:126
+msgid "Guest feedback powered by"
+msgstr "Guest feedback powered by"
+
+#: ../../../View/Polls/show_poll.ctp:19 ../../../View/Polls/show_poll.ctp:32
+#: ../../../View/Polls/auth.ctp:12 ../../../View/Polls/auth.ctp:25
+msgid "Guest Feedback"
+msgstr "Guest Feedback"
+
+#: ../../../View/Polls/show_poll.ctp:126
+msgid "Negative"
+msgstr ""
+
+#: ../../../View/Polls/show_poll.ctp:133
+msgid "Positive"
+msgstr ""
+
+#: ../../../View/Polls/show_poll.ctp:175
+msgid "Please answer this question!"
+msgstr "Please answer this question!"
+
+#: ../../../View/Polls/show_poll.ctp:195
+msgid "Visit"
+msgstr ""
+
+#: ../../../View/Polls/show_poll.ctp:203
+msgid "Is this your first visit...?"
+msgstr "Is this your first visit...?"
+
+#: ../../../View/Polls/show_poll.ctp:216
+msgid "Visit time..."
+msgstr "Visit time..."
+
+#: ../../../View/Polls/show_poll.ctp:230
+msgid "Comment"
+msgstr ""
+
+#: ../../../View/Polls/show_poll.ctp:230 ../../../View/Polls/show_poll.ctp:246
+msgid "optional"
+msgstr ""
+
+#: ../../../View/Polls/show_poll.ctp:246
+msgid "Contact"
+msgstr ""
+
+#: ../../../View/Polls/show_poll.ctp:250
+msgid "Your name"
+msgstr ""
+
+#: ../../../View/Polls/show_poll.ctp:257
+msgid "Your email"
+msgstr ""
+
+#: ../../../View/Polls/show_poll.ctp:269
+#, fuzzy
+msgid "Send rating"
+msgstr "Private rating"
+
+#: ../../../View/Polls/show_poll.ctp:274
+msgid "Reset"
+msgstr "Reset"
+
+#: ../../../View/Polls/show_poll.ctp:286
+msgid "Thank your very much!"
+msgstr "Thank your very much!"
+
+#: ../../../View/Polls/show_poll.ctp:287
+msgid "We appreciate your feedback and we will do our best to be better."
+msgstr "We appreciate your feedback and we will do our best to be better."
+
+#: ../../../View/Polls/show_poll.ctp:292
+msgid "Public Check in &amp; rating!"
+msgstr "Public Check in &amp; rating!"
+
+#: ../../../View/Polls/show_poll.ctp:324
+msgid "Follow us!"
+msgstr "Follow us!"
+
+#: ../../../View/Polls/show_poll.ctp:328
+msgid "Like us on Facebook"
+msgstr "Like us on Facebook"
+
+#: ../../../View/Polls/show_poll.ctp:350 ../../../View/Polls/auth.ctp:125
+#, fuzzy
+msgid "Ratings will be stored anonymously by default for"
+msgstr "All ratings are stored anonymously for"
+
+#: ../../../View/Polls/auth.ctp:58 ../../../View/Polls/auth.ctp:68
+msgid "German"
+msgstr ""
+
+#: ../../../View/Polls/auth.ctp:60 ../../../View/Polls/auth.ctp:69
+msgid "English"
+msgstr "English"
+
+#: ../../../View/Polls/auth.ctp:70
+msgid "Spanish"
+msgstr ""
+
+#: ../../../View/Polls/auth.ctp:70 ../../../View/Polls/auth.ctp:71
+#: ../../../View/Polls/auth.ctp:72 ../../../View/Polls/auth.ctp:73
+#: ../../../View/Polls/auth.ctp:74 ../../../View/Polls/auth.ctp:75
+msgid "Coming soon"
+msgstr ""
+
+#: ../../../View/Polls/auth.ctp:71
+msgid "French"
+msgstr ""
+
+#: ../../../View/Polls/auth.ctp:72
+msgid "Italian"
+msgstr ""
+
+#: ../../../View/Polls/auth.ctp:73
+msgid "Japanese"
+msgstr ""
+
+#: ../../../View/Polls/auth.ctp:74
+msgid "Dutch"
+msgstr ""
+
+#: ../../../View/Polls/auth.ctp:75
+msgid "Portuguese"
+msgstr ""
+
+#: ../../../View/Polls/auth.ctp:92
+msgid "Please enter PIN"
+msgstr "Please enter PIN"
+
+#: ../../../View/Polls/auth.ctp:103
+msgid "Start Feedback"
+msgstr "Start Feedback"
+
+#: ../../../View/Polls/auth.ctp:111
+msgid "We are sorry but this poll is currently deactivated!"
+msgstr ""
+
+#~ msgid "Food and beverages"
+#~ msgstr "Food and beverages"
+
+#~ msgid "Range of food"
+#~ msgstr "Range of food"
+
+#~ msgid "Quality of food"
+#~ msgstr "Quality of food"
+
+#~ msgid "Presentation of food"
+#~ msgstr "Presentation of food"
+
+#~ msgid "Range of beverages and wines"
+#~ msgstr "Range of beverages and wines"
+
+#~ msgid "Restaurant"
+#~ msgstr "Restaurant"
+
+#~ msgid "Ambience & decor"
+#~ msgstr "Ambience & decor"
+
+#~ msgid "Waiting time"
+#~ msgstr "Waiting time"
+
+#~ msgid "Value for money"
+#~ msgstr "Value for money"
+
+#~ msgid "Staff"
+#~ msgstr "Staff"
+
+#~ msgid "Friendliness"
+#~ msgstr "Friendliness"
+
+#~ msgid "Competence"
+#~ msgstr "Competence"
+
+#~ msgid "Flexibility"
+#~ msgstr "Flexibility"
+
+#~ msgid "Service"
+#~ msgstr "Service"
+
+#~ msgid "Restaurant visit"
+#~ msgstr "Restaurant visit"
+
+#~ msgid "Rate"
+#~ msgstr "Rate"
+
+#~ msgid "Deutsch"
+#~ msgstr "Deutsch"
+
+#~ msgid "All Rights Reserved."
+#~ msgstr "All Rights Reserved."
+
+#~ msgid "powered by guestify.net"
+#~ msgstr "powered by guestify.net"
+
+#~ msgid "Englisch"
+#~ msgstr "Englisch"
+
+#~ msgid "Give us your feedback!"
+#~ msgstr "Give us your feedback!"
